@@ -1,0 +1,36 @@
+body {
+	background-color: #ffffff;
+	color: #000000;
+}
+
+a:Link {
+	color: #0000ff;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:Visited {
+	color: #660099;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:Hover {
+	color: #660099;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+a:Active {
+	color: #ff0000;
+	background-color: transparent;
+}
+a img {
+	vertical-align: middle;
+	margin-left: 4px;
+	transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+a:hover img {
+	transform: scale(1.1); /* slight zoom on hover */
+}
